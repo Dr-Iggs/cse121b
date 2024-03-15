@@ -13,7 +13,7 @@ let profilePicture = 'images/profile.jpg';
 const nameElement = document.getElementById('name'); //collect from the html
 const foodElement = document.getElementById('food')
 const yearElement = document.querySelector('#year'); //# required with querySelector to get element IDs
-const imageElement = document.querySelector('img'); //PROB DOESN'T WORK
+const imageElement = document.querySelector('img'); //Works because we want the 1st image, if there were more we'd need names
 
 
 
