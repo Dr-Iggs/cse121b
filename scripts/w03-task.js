@@ -53,9 +53,7 @@ const getTotal = function() {
     if(document.querySelector('#member').checked) {
         mynumber = mynumber * .8;
     }
-    myNumber = String(myNumber)
-    if(length(myNumber))
-    document.querySelector('#total').textContent = `$ ${Math.round(mynumber*100)/100}`;
+    document.querySelector('#total').textContent = `$ ${mynumber.toFixed(2)}`;
 }
 /* Decision Structure */
 document.querySelector('#getTotal').addEventListener('click', getTotal);
