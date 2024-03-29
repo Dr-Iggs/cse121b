@@ -26,7 +26,7 @@ myProfile.placesLived.push({place: 'Reno, NV',
 myProfile.placesLived.push({place: 'Rexburg, ID',
                          length: '2 yrs'});
 
-
+ 
 /* DOM Manipulation - Output */
 /* Name */
 document.querySelector('#name').textContent = myProfile.name;
