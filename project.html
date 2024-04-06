@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of Plotly.js</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="scripts/w06-task.js"></script>
+</head>
+<body>
+    <h1>Bar Plots in Plotly.js</h1>
+    
+    <p>First, we have to load in Plotly. If we call the <a href="https://cdn.plot.ly/plotly-latest.min.js">main Plotly library</a>, it automatically adds all the functions we need: no need to call package hierarchies.</p>
+    <p>Then all we need to add to the html is a DIV section where the plot work will go.</p>
+    <div id="basic_histogram"></div>
+    <p>I'm adding a button to double the values, to practice the interactive element.</p>
+    <select id="filtered" title="Choose a data manipulation">
+        <option value="no-edits">Original Values</option>
+        <option value="double-values">Double Values</option>
+      </select>
+    <p id='max-height'></p>
+
+</body>
+<footer>
+</footer>
+</html>
